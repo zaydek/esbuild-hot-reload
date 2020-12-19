@@ -11,13 +11,13 @@ const liveServer = require("live-server")
 		// is propagated with a fallback.
 		define: { "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV || "development") },
 		// Bundles JavaScript from (see `outfile`).
-		entryPoints: ["./src/index.ts"],
+		entryPoints: ["src/index.ts"],
 		// Uses incremental compilation (see `chokidar.on`).
 		incremental: true,
 		// Removes whitespace, etc. depending on `NODE_ENV=...`.
 		minify: process.env.NODE_ENV === "production",
 		// Bundles JavaScript to (see `entryPoints`).
-		outfile: "./public/script.js",
+		outfile: "public/script.js",
 	})
 	// `chokidar` watcher source changes.
 	chokidar
