@@ -5,7 +5,7 @@ const liveServer = require("live-server")
 ;(async () => {
 	// `esbuild` bundler for JavaScript / TypeScript.
 	const builder = await build({
-		// Bundles JavaScript. // TODO
+		// Bundles JavaScript.
 		bundle: true,
 		// Defines env variables for bundled JavaScript; here `process.env.NODE_ENV`
 		// is propagated with a fallback.
