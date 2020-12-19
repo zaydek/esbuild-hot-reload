@@ -5,9 +5,10 @@ const liveServer = require("live-server")
 ;(async () => {
 	const builder = await build({
 		bundle: true,
+		define: { "process.env.NODE_ENV": env },
 		entryPoints: ["./src/index.ts"],
 		incremental: true,
-		minify: true, // TODO
+		minify: process.env.NODE_ENV === "production",
 		outfile: "./public/script.js",
 	})
 	chokidar
