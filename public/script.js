@@ -1,1 +1,5 @@
-(()=>{var e=document.getElementById("root");e.innerHTML="Hello, world!";})();
+(() => {
+  // src/index.ts
+  var e = document.getElementById("root");
+  e.innerHTML = "Hello, world!";
+})();
