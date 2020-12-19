@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Node / Yarn
+/.env
+/*.log*
+/node_modules
+
+# NPM
+/dist
