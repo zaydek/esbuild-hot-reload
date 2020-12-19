@@ -9,8 +9,6 @@ const liveServer = require("live-server")
 		bundle: true,
 		// Defines env variables for bundled JavaScript; here `process.env.NODE_ENV`
 		// is propagated with a fallback.
-		//
-		// NOTE: Env variables must be JSON-encoded.
 		define: { "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV || "development") },
 		// Bundles JavaScript from (see `outfile`).
 		entryPoints: ["./src/index.ts"],
