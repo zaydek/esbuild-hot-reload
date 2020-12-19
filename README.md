@@ -1,6 +1,6 @@
 # esbuild-hot-reload
 
-This is a minimal repo that aims to demonstrate how to esbuild, TypeScript, and hot reload. Note that hot reloading is not the same thing as hot module replacement, otherwise known as HMR. Hot reload simply refreshes your local server for you whereas HMR dynamically refreshes your local server. HMR is great when it works and doesn’t pose significant complexity but hot reloading is simpler, easier to reason.
+This is a minimal repo that aims to demonstrate how to esbuild + TypeScript + hot reload. Note that hot reloading is not the same thing as hot module replacement, otherwise known as HMR. Hot reload simply refreshes your local server for you whereas HMR dynamically refreshes your local server. HMR is great when it works and doesn’t pose significant complexity but hot reloading is simpler, easier to reason.
 
 ## How to use this repo
 
